@@ -122,12 +122,12 @@ float get_throttling_coeff(int row_id, int coreid, bool is_real_hammer)
 Please do not hesitate to contact A. Giray Yaglikci, regarding the issues you may face at agirayyaglikci@gmail.com
 
 ### Traces
-To reproduce the performance results, you can find the traces under [`ramulator/traces`](traces) directory. 
+To reproduce the performance results, you can find the traces under [`traces`](traces) directory. 
 
 ### Simulating BlockHammer
-[`ramulator/tests/test_blockhammer.sh`](ramulator/tests/test_blockhammer.sh) script shows how to configure BlockHammer using command line parameters. 
+[`tests/test_blockhammer.sh`](tests/test_blockhammer.sh) script shows how to configure BlockHammer using command line parameters. 
 
-The following snippet from [`ramulator/tests/test_blockhammer.sh`](ramulator/tests/test_blockhammer.sh) shows the configuration used for generating the results in Figs 4 and 5. 
+The following snippet from [`tests/test_blockhammer.sh`](tests/test_blockhammer.sh) shows the configuration used for generating the results in Figs 4 and 5. 
 
 ```
 mechcmd="$mechcmd -c rowhammer_defense=blockhammer";
@@ -143,9 +143,9 @@ To regenerate the results in Fig 6, please refer to Table 7 in the extended vers
 
 There are two useful Python files under tests directory for your convenience: 
 
-- [`StatParser3.py`](ramulator/tests/StatParser3.py): A Python3 class that parses Ramulator's stats output. 
+- [`tests/StatParser3.py`](tests/StatParser3.py): A Python3 class that parses Ramulator's stats output. 
 
-- [`collect_results.py`](ramulator/tests/collect_results.py): This is a script, written in Python3, to parse all simulation outputs in a directory tree and summarizes the most useful statistics into a csv file along with their normalized values with respect to the baseline simulation results. 
+- [`tests/collect_results.py`](tests/collect_results.py): This is a script, written in Python3, to parse all simulation outputs in a directory tree and summarizes the most useful statistics into a csv file along with their normalized values with respect to the baseline simulation results. 
 
 ## Other Differences
  - This version of Ramulator has DRAMPower implemented. Just pass `-p collect_energy=true -p drampower_specs_file=path/to/your/csv/formatted/DRAMPower/configuration/file`
