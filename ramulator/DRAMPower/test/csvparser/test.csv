@@ -1,0 +1,6 @@
+id,name,value,datatype,parent
+0,a,0,int,-1
+1,b,10,float,0
+2,c,20,float,0
+3,d,30,string,1
+4,e,40,int,3
