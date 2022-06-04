@@ -22,9 +22,9 @@ BlockHammer is designed to (1) scale efficiently as DRAM chips become increasing
 
 # BlockHammer's Implementation
 
-- [`Ramulator Model`](ramulator/README.md)
+- [`Ramulator Model`](ramulator)
 
-- [`RTL Model`](rtl/README.md)
+- [`RTL Model`](rtl)
 
 # Citation
 Please cite our full HPCA 2021 paper if you use this Ramulator version.
