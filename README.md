@@ -8,7 +8,7 @@ We introduce BlockHammer, a low-cost, effective, and easy-to-adopt RowHammer mit
 
 Compared to state-of-the-art RowHammer mitigation mechanisms, BlockHammer provides competitive performance and energy when the system is not under a RowHammer attack and significantly better performance and energy when the system is under attack.
 
-The full paper is available on 
+The full paper is published in [`HPCA 2021`](https://ieeexplore.ieee.org/abstract/document/9407238) and the pdf is available online: [`arXiv:2102.05981 [cs.CR] `](https://arxiv.org/abs/2102.05981)
 
 # Citation
 Please cite our full HPCA 2021 paper if you find this repository useful.
