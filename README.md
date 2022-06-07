@@ -43,12 +43,16 @@ You can find BlockHammer's talks and slides below:
 This repository has two subdirectories. Please refer to each subdirectory on reproducing results. 
 
 - [`Ramulator Model`](ramulator): This subdirectory includes an extended version of [`Ramulator`](https://github.com/CMU-SAFARI/ramulator) with a RowHammerDefense class, which implements BlockHammer along with six state-of-the-art RowHammer mitigaiton mechanisms: 
-  - PARA,        //Y. Kim et al. ``Flipping Bits...,'' in ISCA'14
-  - CBT,         //S. M. Seyedzadeh et al., ``Counter-Based...,” CAL'17.
-  - PROHIT,      //M. Son et al., ``Making DRAM Stronger Against Row Hammering,'' in DAC'17
-  - MRLOC,       //J. M. You et al., ``MRLoc: Mitigating Row-Hammering Based on Memory Locality,'' in DAC'19
-  - TWICE,       //E. Lee et al., ``TWiCe: Preventing Row-Hammering...,'' in ISCA'19.
-  - GRAPHENE,    //Y. Park et al., ``Graphene: Strong yet Lightweight Row Hammer Protection,'' in MICRO'20
+
+  | Mechanism  | Reference | 
+  |------------|-----------|
+  | PARA       | Y. Kim, et al., **''Flipping Bits in Memory Without Accessing Them: An Experimental Study of DRAM Disturbance Errors,''** in ISCA, 2014. |
+  | CBT        | S. M. Seyedzadeh et al., **''Mitigating Wordline Crosstalk Using Adaptive Trees of Counters,''** in ISCA, 2018. |
+  | ProHIT     | M. Son et al., **''Making DRAM Stronger Against Row Hammering,''** in DAC, 2017. |
+  | MrLoc      | J. M. You et al., **''MRLoc: Mitigating Row-Hammering Based on Memory Locality,''** in DAC, 2019.|
+  | TWiCe      | E. Lee et al., **''TWiCe: Preventing Row-hammering by Exploiting Time Window Counters''** in ISCA, 2019.|
+  | Graphene   | Y. Park et al., **''Graphene: Strong yet Lightweight Row Hammer Protection,''** in MICRO, 2020.|
+  
 
 - [`RTL Model`](rtl): This subdirectory includes RTL implementation of the counters and buffers used in BlockHammer.
 
