@@ -117,7 +117,7 @@ float get_throttling_coeff(int row_id, int coreid, bool is_real_hammer)
 {"grk", "1"}, // how many times will graphene be reset in a refresh window.
 ``` 
 
-## Guideleines for Reproducing Results
+## Guidelines for Reproducing Results
 
 Please do not hesitate to contact A. Giray Yaglikci, regarding the issues you may face at agirayyaglikci@gmail.com
 
